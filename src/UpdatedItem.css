@@ -26,9 +26,29 @@
     width: 100%;
 }
 
-.title {
-    padding: 10px;
-    color: #5f4c46;
-    width: 100%;
-    background-color: #e0dbd7;
+.inputs{
+    border: 2px solid red;
+    border-radius: 4px;
+    width: 400px;
+    padding: 12px 10px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+button {
+    margin-top: 40px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
